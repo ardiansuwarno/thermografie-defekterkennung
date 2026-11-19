@@ -1,0 +1,27 @@
+# Python & Cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+junit.xml
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Große Rohdaten & generierte ML-Artefakte (nicht ins Git!)
+KIS2_Data/
+src/ML/data/
+src/ML/saved_models/
+*.hdf5
+*.h5
+*.npy
+*.pkl
+
+# Lokale Umgebungen
+.venv/
+.env
+
+.vscode/
+*.pdf
