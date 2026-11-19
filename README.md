@@ -17,7 +17,7 @@ TEIL 2-20260817/
 ├── pyproject.toml                       # Konfiguration für Ruff und Pytest
 ├── requirements.txt                     # Python-Abhängigkeiten für CI & Setup
 ├── README.md
-├── KIS2_Data/                           # Rohdaten (HDF5-Dateien, lokal, per .gitignore ausgeschlossen)
+├── KIS2_Data/                           # Rohdaten (HDF5-Dateien, Defekt & Intakt)
 ├── src/
 │   ├── __init__.py
 │   ├── flattening.py                    # Transformation zwischen 1D-Arrays und 2D-Bildern
